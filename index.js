@@ -55,24 +55,24 @@ let  y1 = 25;
 result2 = x1 | y1; 
 console.log(result2); 
 
-// let Science = "Physics, Chemistry, Biology, Technical Drawing"; 
-// let Social  ="Accounting, Commerce, Marketing, Geography";
-// let Arts ="Government, Economics, Literature, History";
-// let General ="English, Mathematics";
+let Science = "Physics, Chemistry, Biology, Technical Drawing"; 
+let Social  ="Accounting, Commerce, Marketing, Geography";
+let Arts ="Government, Economics, Literature, History";
+let General ="English, Mathematics";
 
-// let Class = prompt("enter your class");
-// if (Class == Science){
-//     alert("Physics, Chemistry, Biology, Technical Drawing");
+let Class = prompt("enter your class");
+if (Class == Science){
+    alert("Physics, Chemistry, Biology, Technical Drawing");
 
-// }else if(Class == Social){
-//     alert("Accounting, Commerce, Marketing, Geography");
-// }
-// else if(Class == Arts){
-//     alert("Government, Economics, Literature, History");
-// }
-// else{
-//     alert("English, Mathematics")
-// }
+}else if(Class == Social){
+    alert("Accounting, Commerce, Marketing, Geography");
+}
+else if(Class == Arts){
+    alert("Government, Economics, Literature, History");
+}
+else{
+    alert("English, Mathematics")
+}
 
 for (let i=1;i<20; i+=7){
     console.log(i)
